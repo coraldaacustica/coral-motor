@@ -1,0 +1,16 @@
+{
+  "name": "coral-motor",
+  "version": "1.1.1",
+  "description": "Motor de cálculo acústico do Coral da Acústica: tempo de reverberação, estudo por raios, mapa de cobertura e isolamento.",
+  "main": "coral-motor.js",
+  "license": "AGPL-3.0-or-later",
+  "author": "SELO Inteligência em Fidelização e Tecnologia Ltda",
+  "homepage": "https://www.coraldaacustica.app/aberto",
+  "repository": { "type": "git", "url": "https://github.com/coraldaacustica/coral-motor.git" },
+  "scripts": {
+    "test": "node --test teste/motor.test.js",
+    "validar": "node validacao/bras-cr2/cr2.js fitted 20000 1 \"{\\\"ur\\\":40}\""
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["acústica", "acoustics", "reverberação", "ray tracing", "Sabine", "Eyring", "ISO 3382", "ISO 717", "STI"]
+}
